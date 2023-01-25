@@ -1,0 +1,143 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ardacan Yildiz, Bilkent EEE, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.4.0
+Target DLL:      PEMicro\Pemicro_ArmCortexInterface.dll V1.3.0.0
+Dialog DLL:      TARMCM1.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Ardacan\Desktop\Chapter3\chapter3.uvprojx
+Project File Date:  04/22/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+lab5off.c(17): warning: non-portable path to file '<MKL25Z4.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include <MKL25Z4.H>
+         ^~~~~~~~~~~
+         <MKL25Z4.h>
+lab5off.c(270): warning: implicit conversion turns floating-point number into integer: 'double' to 'uint32_t' (aka 'unsigned int') [-Wfloat-conversion]
+        mod = (((20.97152 * pow(10,6))/(256 * firstop))-1);
+            ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+lab5off.c(271): warning: implicit conversion turns floating-point number into integer: 'double' to 'uint32_t' (aka 'unsigned int') [-Wfloat-conversion]
+  cv_1 = (secop/100.0) * (mod + 1);
+       ~ ~~~~~~~~~~~~~~^~~~~~~~~~~
+lab5off.c(274): warning: implicit conversion turns floating-point number into integer: 'double' to 'unsigned int' [-Wfloat-conversion]
+rounded_mod = round(mod);
+            ~ ^~~~~~~~~~
+lab5off.c(276): warning: implicit conversion turns floating-point number into integer: 'double' to 'unsigned int' [-Wfloat-conversion]
+rounded_cv1 = round(cv_1);
+            ~ ^~~~~~~~~~~
+lab5off.c(279): warning: implicit conversion turns floating-point number into integer: 'double' to 'uint32_t' (aka 'unsigned int') [-Wfloat-conversion]
+mod2 = (((20.97152 * pow(10,6))/(256 * thirdop))-1);
+     ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+lab5off.c(280): warning: implicit conversion turns floating-point number into integer: 'double' to 'uint32_t' (aka 'unsigned int') [-Wfloat-conversion]
+  cv_2 = ((100.0 - fourthop)/100.0) * (mod2 + 1);
+       ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+lab5off.c(282): warning: implicit conversion turns floating-point number into integer: 'double' to 'unsigned int' [-Wfloat-conversion]
+rounded_mod2 = round(mod2);
+             ~ ^~~~~~~~~~~
+lab5off.c(284): warning: implicit conversion turns floating-point number into integer: 'double' to 'unsigned int' [-Wfloat-conversion]
+rounded_cv2 = round(cv_2);
+            ~ ^~~~~~~~~~~
+lab5off.c(318): warning: implicit conversion turns floating-point number into integer: 'double' to 'uint32_t' (aka 'unsigned int') [-Wfloat-conversion]
+                mod = (((20.97152 * pow(10,6))/(256 * firstop))-1);
+                    ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+lab5off.c(319): warning: implicit conversion turns floating-point number into integer: 'double' to 'uint32_t' (aka 'unsigned int') [-Wfloat-conversion]
+  cv_1 = (secop/100.0) * (mod + 1);
+       ~ ~~~~~~~~~~~~~~^~~~~~~~~~~
+lab5off.c(322): warning: implicit conversion turns floating-point number into integer: 'double' to 'unsigned int' [-Wfloat-conversion]
+rounded_mod = round(mod);
+            ~ ^~~~~~~~~~
+lab5off.c(324): warning: implicit conversion turns floating-point number into integer: 'double' to 'unsigned int' [-Wfloat-conversion]
+rounded_cv1 = round(cv_1);
+            ~ ^~~~~~~~~~~
+lab5off.c(327): warning: implicit conversion turns floating-point number into integer: 'double' to 'uint32_t' (aka 'unsigned int') [-Wfloat-conversion]
+mod2 = (((20.97152 * pow(10,6))/(256 * thirdop))-1);
+     ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+lab5off.c(328): warning: implicit conversion turns floating-point number into integer: 'double' to 'uint32_t' (aka 'unsigned int') [-Wfloat-conversion]
+  cv_2 = ((100.0 - fourthop)/100.0) * (mod2 + 1);
+       ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+lab5off.c(330): warning: implicit conversion turns floating-point number into integer: 'double' to 'unsigned int' [-Wfloat-conversion]
+rounded_mod2 = round(mod2);
+             ~ ^~~~~~~~~~~
+lab5off.c(332): warning: implicit conversion turns floating-point number into integer: 'double' to 'unsigned int' [-Wfloat-conversion]
+rounded_cv2 = round(cv_2);
+            ~ ^~~~~~~~~~~
+lab5off.c(349): warning: implicit conversion turns floating-point number into integer: 'double' to 'uint32_t' (aka 'unsigned int') [-Wfloat-conversion]
+                mod = (((20.97152 * pow(10,6))/(256 * firstop))-1);
+                    ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+lab5off.c(350): warning: implicit conversion turns floating-point number into integer: 'double' to 'uint32_t' (aka 'unsigned int') [-Wfloat-conversion]
+  cv_1 = (secop/100.0) * (mod + 1);
+       ~ ~~~~~~~~~~~~~~^~~~~~~~~~~
+lab5off.c(353): warning: implicit conversion turns floating-point number into integer: 'double' to 'unsigned int' [-Wfloat-conversion]
+rounded_mod = round(mod);
+            ~ ^~~~~~~~~~
+lab5off.c(355): warning: implicit conversion turns floating-point number into integer: 'double' to 'unsigned int' [-Wfloat-conversion]
+rounded_cv1 = round(cv_1);
+            ~ ^~~~~~~~~~~
+lab5off.c(358): warning: implicit conversion turns floating-point number into integer: 'double' to 'uint32_t' (aka 'unsigned int') [-Wfloat-conversion]
+mod2 = (((20.97152 * pow(10,6))/(256 * thirdop))-1);
+     ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+lab5off.c(359): warning: implicit conversion turns floating-point number into integer: 'double' to 'uint32_t' (aka 'unsigned int') [-Wfloat-conversion]
+  cv_2 = ((100.0 - fourthop)/100.0) * (mod2 + 1);
+       ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+lab5off.c(361): warning: implicit conversion turns floating-point number into integer: 'double' to 'unsigned int' [-Wfloat-conversion]
+rounded_mod2 = round(mod2);
+             ~ ^~~~~~~~~~~
+lab5off.c(363): warning: implicit conversion turns floating-point number into integer: 'double' to 'unsigned int' [-Wfloat-conversion]
+rounded_cv2 = round(cv_2);
+            ~ ^~~~~~~~~~~
+25 warnings generated.
+compiling lab5off.c...
+linking...
+Program Size: Code=4988 RO-data=368 RW-data=0 ZI-data=352  
+".\Objects\chapter3.axf" - 0 Error(s), 25 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.Kinetis_KLxx_DFP.1.15.0.pack
+                Keil.Kinetis_KLxx_DFP.1.15.0
+                NXP Kinetis KLxx Series Device Support and Examples
+   * Component: Startup Version: 2.5.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\MKL25Z128xxx4
+  .\RTE\_Target_1
+  C:\Program Files (x86)\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Program Files (x86)\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: Keil::Device:Startup:2.5.0
+      Source file:   Device\Source\ARM\startup_MKL25Z4.s
+      Include file:  Device\Source\system_MKL25Z4.h
+      Source file:   Device\Source\system_MKL25Z4.c
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
